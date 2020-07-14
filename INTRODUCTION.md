@@ -33,7 +33,7 @@ mindenképpen saját magunknak le kell ellenőrizni a saját munkánkban, mielő
 amit írtunk, ki kell próbálnunk minden lehetséges esetet, ami megtörénhet. Szándékosan ki kell próbálnunk a programot rossz bemenő adatokkal is, 
 hogy lássuk, arra hogyan viselkedik.
 
-Ez a tesztelés is a programozó munka része. Továbbá **nagyon komoly etikai és emberi/jellembeli kérdés is egyben**, hogy milyen munkát adok ki a kezemből.
+Ez a tesztelés is a programozói munka része. Továbbá **nagyon komoly etikai és emberi/jellembeli kérdés is egyben**, hogy milyen munkát adok ki a kezemből.
 
 #### Milyen tudás kell az Android platformon a programozáshoz?
 
