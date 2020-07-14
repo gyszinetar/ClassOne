@@ -44,4 +44,4 @@
 
 ---
 
-[KÖVETKEZŐ TÉMA](https://github.com/droidteacher/ClassOne/blob/master/Bevezetes_Kotlin.md)
+[KÖVETKEZŐ TÉMA](https://github.com/droidteacher/ClassOne/blob/master/elmelet/Bevezetes_Kotlin.md)

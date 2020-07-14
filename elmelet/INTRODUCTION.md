@@ -54,4 +54,4 @@ Ez a tesztelés is a programozói munka része. Továbbá **nagyon komoly etikai
 
 ---
 
-[KÖVETKEZŐ TÉMA](https://github.com/droidteacher/ClassOne/blob/master/Android_Architecture_and_Software_Stack.md)
+[KÖVETKEZŐ TÉMA](https://github.com/droidteacher/ClassOne/blob/master/elmelet/Android_Architecture_and_Software_Stack.md)

@@ -141,4 +141,4 @@ egy példányát kell megszerezni és akkor minden ilyen resource-hoz hozzá tud
 
 ---
 
-[KÖVETKEZŐ TÉMA](https://github.com/droidteacher/ClassOne/blob/master/AndroidStudio.md)
+[KÖVETKEZŐ TÉMA](https://github.com/droidteacher/ClassOne/blob/master/elmelet/AndroidStudio.md)

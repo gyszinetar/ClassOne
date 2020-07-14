@@ -67,4 +67,4 @@ Az Android Studio olykor több háttérfolyamatot is futtat, ami memória igény
     
 ---
 
-[KÖVETKEZŐ TÉMA](https://github.com/droidteacher/ClassOne/blob/master/AVD_es_Emulator.md)
+[KÖVETKEZŐ TÉMA](https://github.com/droidteacher/ClassOne/blob/master/elmelet/AVD_es_Emulator.md)
