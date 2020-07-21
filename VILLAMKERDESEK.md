@@ -16,3 +16,18 @@
 12. Igaz-e az alábbi állítás: Az AppCompatActivity a `java.lang.Object` osztály leszármazottja és tőle örökli az `onCreate()`, `onStart()` stb. életciklus metódusokat.
  
 ---
+
+## 2020. július 20.
+
+1. Milyen memória területek fontosak adattárolás szempontjából a számítógépben?
+2. Mi a különbség a primitív és a referencia típusok között?
+3. Mi a szemétgyűjtés vagy Garbage Collection?
+4. Az encapsulation (egységbezárás) alapelv mire vonatkozik?
+5. Mi teszi platformfüggetlenné a Java nyelvet?
+6. Sorold fel az alapvető adattípusokat a Kotlin nyelvben!
+7. Mit jelent a resources fogalom egy android projektben, hogyan jelenik meg tárolási és programozási szempontból?
+8. Mire valók az Intent-ek?
+9. Mi a broadcasting szerepe az Android platfomban?
+10. Mi a nullability fogalom a Kotlinban, milyen problémát lehet kiküszöbölni a helyes használatával?
+11. Mi a val, var és const val kulcsszavak szerepe és használata a Kotlinban?
+12. Mire való a let function és mi az Elvis operátor?
