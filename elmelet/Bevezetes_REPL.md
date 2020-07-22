@@ -128,5 +128,5 @@ Hasonló a scatches-hez, de ez hozzátartozik a konkrét projekthez, a projekt m
 
 ---
 
-[KÖVETKEZŐ TÉMA](file:///home/zsolt/Munka/Projects/ProOktatas/topics/elmelet/Kotlin_OOP.md)
+[KÖVETKEZŐ TÉMA](https://github.com/droidteacher/ClassOne/blob/master/elmelet/Kotlin_OOP.md)
 

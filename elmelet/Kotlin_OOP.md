@@ -88,7 +88,7 @@
 
 ---
 
-[KÖVETKEZŐ TÉMA](file:///home/zsolt/Munka/Projects/ProOktatas/topics/elmelet/UI-Elements.md)
+[KÖVETKEZŐ TÉMA](https://github.com/droidteacher/ClassOne/blob/master/elmelet/Beginning_Android_Layouts.md)
 
 
 
