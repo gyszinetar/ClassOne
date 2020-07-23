@@ -31,3 +31,20 @@
 10. Mi a nullability fogalom a Kotlinban, milyen problémát lehet kiküszöbölni a helyes használatával?
 11. Mi a val, var és const val kulcsszavak szerepe és használata a Kotlinban?
 12. Mire való a let function és mi az Elvis operátor?
+
+---
+
+## 2020. július 22.
+
+1. Mi a type inference? Szemléltesd példákkal!
+2. Mi a not null assertion operátor?
+3. Mi a range operátor?
+4. Mi a változónevekre vonatkozó konvenció a Kotlinban és a Java-ban?
+5. Mi a when() kifejezés a Kotlinban, hogyan működik?
+6. Hogyan tudunk ciklust írni Kotlinban? Ismertess több lehetőséget is!
+7. Hogyan tudunk visszafelé számláló ciklust írni?
+8. Mi a konstruktor? Hányféle konstruktor van a Kotlinban? Melyikre mi jellemző?
+9. Mik a getter/setter metódusok?
+10. Mi az állapot és a referencia szerinti egyenlőség?
+11. Mi a data class?
+12. Mi a különbség az osztály és a példány között? Magyarázd meg a fogalmakat!

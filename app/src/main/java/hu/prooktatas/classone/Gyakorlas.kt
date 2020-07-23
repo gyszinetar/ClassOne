@@ -30,32 +30,40 @@ data class Szemely(val fn: String, val ln: String, val age: Int)
 
 fun main() {
 
-    val sz = Szemely("Zsolt", "Kiss", 42)
-//    val sz2 = Szemely("Tibor", "Tóth", 33)
-    println(sz)
-//    println(sz2)
+//    val sz = Szemely("Zsolt", "Kiss", 42)
+////    val sz2 = Szemely("Tibor", "Tóth", 33)
+//    println(sz)
+////    println(sz2)
+//
+//    val refEq = sz
+//
+//    val szCopy = sz.copy()
+//    println(szCopy)
+//
+//    // ref szerinti egyenloseg: ===
+//    // allapot szerinti egyenloseg ==
+//    if (sz == szCopy) {
+//        println("Állapot szerint egyenlőek")
+//    } else {
+//        println("Állapot szerint NEM egyenlőek")
+//    }
+//
+//    if (sz === szCopy) {
+//        println("Referencia szerint egyenlőek")
+//    } else {
+//        println("Referencia szerint NEM egyenlőek")
+//    }
 
-    val refEq = sz
+    // 0, 1, 2
+    val myRange = 1..10
 
-    val szCopy = sz.copy()
-    println(szCopy)
+//    for (i in 0 until 2) {
+//        println(i)
+//    }
 
-    // ref szerinti egyenloseg: ===
-    // allapot szerinti egyenloseg ==
-    if (sz == szCopy) {
-        println("Állapot szerint egyenlőek")
-    } else {
-        println("Állapot szerint NEM egyenlőek")
+    for (i in 0 .. myRange.last) {
+        println(i)
     }
-
-    if (sz === szCopy) {
-        println("Referencia szerint egyenlőek")
-    } else {
-        println("Referencia szerint NEM egyenlőek")
-    }
-
-
-
 
 
 
