@@ -48,3 +48,20 @@
 10. Mi az állapot és a referencia szerinti egyenlőség?
 11. Mi a data class?
 12. Mi a különbség az osztály és a példány között? Magyarázd meg a fogalmakat!
+
+---
+
+## 2020. július 27.
+
+1. Miért került bevezetésre a logikai pixel (density independent pixel) az Android platformon?
+2. Mire vonatkozik a fragmentation?
+3. Sorold fel a density bucket-eket!
+4. Egy `mdpi` felbontáshoz tartozó 32x32 pixeles képi erőforrást milyen egyéb méretekben kell elkérnünk a grafikustól? 
+5. Sorold fel a különböző densitiy bucket-ekhez tartozó képi erőforrások méreteire vonatkozó arányszámokat!
+6. Milyen mértékegységben adjuk meg a betűméreteket egy Android projektben?
+7. Milyen kintüntetett szerepű erőforrás fájl generálódik a build process során?
+8. Mi a UI widgetek ősosztálya?
+9. Mik a Layout managerek? Mi az ősosztályuk?
+10. Jellemezd a GirdLayout-ot!
+11. Hogyan lehet megadni egy UI elem szélességét és magasságát xml-ben?
+12. Mi a különbség a `match_parent` és a `wrap_content` között?
