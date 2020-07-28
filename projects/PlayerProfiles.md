@@ -54,7 +54,11 @@ Az egérrel álljunk az ilyen  szöveg fölé az xml nézeten és kövessük a b
 A `RelativeLayout` szerinti pozicionálást ebben a gyakorlatban **inkább ne** vezessük ki a stílusokba.
 
 * Logolás:
-    Log.d("Some arbitraty ID", "This is a debug log message")
+
+        Log.d("KZs", "This is a debug log message")
+
+A `Logcat` panelen nézhetjük meg az alkalmazás futása közben a log üzeneteket. Állítsunk be szűrést, hogy csak a debug-szintű üzeneteket lássuk! 
+A `Log.d()` első paraméterében átadott **tetszőleges** message ID használatával tovább szűkíthetjük a `Logcat` által megjelenített üzenetsorokat.
 
 ### HÁZI FELADATOK (amennyiben az órán nem jutottunk el idáig)
 
