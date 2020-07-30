@@ -65,3 +65,19 @@
 10. Jellemezd a GirdLayout-ot!
 11. Hogyan lehet megadni egy UI elem szélességét és magasságát xml-ben?
 12. Mi a különbség a `match_parent` és a `wrap_content` között?
+
+
+## 2020. július 28.
+
+1. Milyen lehetőségeink vannak az Android platformon a user interface implementálásra?
+2. Milyen nézetek vannak az Android Studio layout editorban? 
+3. Mi az orientation change és miért fontos?
+4. Jellemezd a LinearLayout-ot!
+5. Mire való az `orientation` attribute és milyen értékeket vehet fel?
+6. Mi a különbség a paddig és a margin között?
+7. Jellemezd a RelativeLayout-ot!
+8. Jellemezd a FrameLayout-ot!
+9. Melyik attribútum segítségével lehet a FrameLayout-on belül pozicionálni a subview-kat?
+10. Mi a különbség az ImageView és az image drawable között?
+11. Lehetséges-e egy képernyőt több változatban is implementálni egy Android projektben?
+12. Mi a styles.xml a dimens.xml és a string.xml szerepe?

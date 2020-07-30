@@ -1,6 +1,6 @@
 # Közös kódírás: PlayerProfiles app
 
-### Leírás
+## Leírás
 
 Football játékosok adatlapját megjelenítő alkalmazás.
 Megjeleníti a játékos arcképét és különböző adatait.
