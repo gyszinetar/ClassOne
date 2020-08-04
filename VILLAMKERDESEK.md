@@ -81,3 +81,19 @@
 10. Mi a különbség az ImageView és az image drawable között?
 11. Lehetséges-e egy képernyőt több változatban is implementálni egy Android projektben?
 12. Mi a styles.xml a dimens.xml és a string.xml szerepe?
+
+
+## 2020. augusztus 3.
+
+1. Mi az öröklődés az OOP-ben, miért használjuk, milyen előnyökkel jár?
+2. Mi az öröklődés szintaxisa a Kotlinban?
+3. Mi az init blokk?
+4. Mit tudunk a konstruktorhívásokról az öröklődéskor?
+5. Mi öröklődik az öröklődés során, mi kell ahhoz, hogy valami örökölhető legyen?
+6. Igaz-e az alábbi állítás: a Kotlin azért is modernebb programnyelv, mint a Java, mert szakított az idejétmúlt single inheritance koncepcióval.
+7. Igaz-e az alábbi állítás: Ha Animal ősosztály leszármazottja a Mammal (emlős), és a Mammal leszármazottja a Dog, akkor a Dog-ra igaz lesz az IS-A reláció, mind a Mammal, mind az Animal vonatkozásában.
+8. Mit jelent az, hogy a gyermek mindig beugorhat a szülő helyett?
+9. Milyen kihívások elé állítja bármilyen mobil platformon a fejlesztőket a listás adatok megjelenítésének igénye?
+10. Hogyan működik a RecyclerView?
+11. Mi az interfész koncepcióban a Java-ban és a Kotlinban?
+12. Ha a klikkelés eseményre szeretnénk reagálni egy Android projektben, melyik interfészt kell implementálnunk?

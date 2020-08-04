@@ -50,13 +50,13 @@ open class Tool(var name: String) {
     }
 
     open fun doSomeWork() {
-        println("This tool is preparing for work...")
+        println("TOOL doSomeWork")
     }
 
 
 }
 
-class Spade(override var price: Double): Tool("spade") {
+class Spade(override var price: Double): Tool("ásó") {
 
     init {
         println("Spade.init(): $name, $price")
@@ -64,6 +64,6 @@ class Spade(override var price: Double): Tool("spade") {
 
     override fun doSomeWork() {
         super.doSomeWork()
-        println("Spade is working now!")
+        println("SPADE doSomeWork")
     }
 }
