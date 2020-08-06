@@ -39,7 +39,9 @@ Alul egy "Lapot kérek!" gomb, feleatte egy TextView, amelyben kiírjuk, mennyi 
 
 6. A `MainActivity`-ben helyezzünk egy `private var sum = 0` változót, amelyben a pakliról levett lapok összértékét tartjuk nyilván!
 
-7. A `MainActivity`-ben helyezzünk egy `private var popCount = 0` változót, amellyel a pakliban indexeljük majd az aktuális lapot! (A játék úgy indul, hogy a legfelső lap felfedődik, de ekkor a popCount értéke még nulla. Innentől kezdve minden egyes lap kéréskor fogjuk növelni a popCount-ot.)
+7. A `MainActivity`-ben helyezzünk egy `private val cardOnTop: Card` változót, amellyel mindig a pakliban lévő aktuális legfelső lapra hivatkozunk. 
+Írjunk ehhez a property-hez egy custom getter metódust, ami a pakliból mindig visszaadja azt az a lapot, akinek az indexe megegyezik a `FrameLayout`-ban lévő elemek száma mínusz eggyel.
+(A játék úgy indul, hogy a legfelső lap automatikusan felfedődik. Ettől kezdve minden egyes klikkelés a gombon felfedi eltávolítja a legfelső elemet a `FrameLayout`-ból.)
 
 8. Implementáljunk egy `private fun loadCards()` metódust, amely a következőket végzi el:
     * Megkeveri a kártyákat
@@ -78,12 +80,12 @@ A FrameLayout-hoz kódból adjuk hozzá a 32 lapot:
 Amikor leemelünk egy kártyát, meg kell határoznunk a felfedett lap értékét. Az nem elég, hogy a UI-on látjuk az ImageView-t. A pakli mögött lévő modell objektum egy `List<Card>` példány. Az újonnan felfedett lapot ebben a listában is azonosítanunk kell. A lap emelésekor fusson egy `peek()` metódus a következők szerint:
 
     private fun peek() {
-        val revealedCard = deck.get(deck.size - popCount -1)
-        sum += revealedCard.value.num
+        sum += cardOnTop.value.num
         tvSum.text = sum.toString()
-
-        if (sum >= 21) {
-            hasEnded()
+    
+        when(sum) {
+            21 -> hasEnded("Pont 21! Nyertél!")
+            in 22..Int.MAX_VALUE -> hasEnded("A játék itt véget ért: $sum")
         }
     }
 
