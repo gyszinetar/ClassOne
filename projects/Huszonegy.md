@@ -40,8 +40,8 @@ Alul egy "Lapot kérek!" gomb, feleatte egy TextView, amelyben kiírjuk, mennyi 
 6. A `MainActivity`-ben helyezzünk egy `private var sum = 0` változót, amelyben a pakliról levett lapok összértékét tartjuk nyilván!
 
 7. A `MainActivity`-ben helyezzünk egy `private val cardOnTop: Card` változót, amellyel mindig a pakliban lévő aktuális legfelső lapra hivatkozunk. 
-Írjunk ehhez a property-hez egy custom getter metódust, ami a pakliból mindig visszaadja azt az a lapot, akinek az indexe megegyezik a `FrameLayout`-ban lévő elemek száma mínusz eggyel.
-(A játék úgy indul, hogy a legfelső lap automatikusan felfedődik. Ettől kezdve minden egyes klikkelés a gombon felfedi eltávolítja a legfelső elemet a `FrameLayout`-ból.)
+Írjunk ehhez a property-hez egy custom getter metódust, ami a pakliból mindig visszaadja azt a lapot, akinek az indexe megegyezik a `FrameLayout`-ban lévő elemek száma mínusz eggyel.
+(A játék úgy indul, hogy a legfelső lap automatikusan felfedődik. Ettől kezdve minden egyes klikkelés a gombon eltávolítja a legfelső elemet a `FrameLayout`-ból.)
 
 8. Implementáljunk egy `private fun loadCards()` metódust, amely a következőket végzi el:
     * Megkeveri a kártyákat
