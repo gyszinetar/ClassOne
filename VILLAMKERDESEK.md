@@ -97,3 +97,20 @@
 10. Hogyan működik a RecyclerView?
 11. Mi az interfész koncepcióban a Java-ban és a Kotlinban?
 12. Ha a klikkelés eseményre szeretnénk reagálni egy Android projektben, melyik interfészt kell implementálnunk?
+
+
+## 2020. augusztus 12.
+
+1. Mi a mutability/immutability fogalom?
+2. Hogyan jelenik meg a mutability/immutability fogalom változók létrehozásakor?
+3. Mit tudsz az Array adattípusról?
+4. Mire valók a kollekciók, milyen igény hívta életre őket?
+5. Milyen kollekció típusok léteznek?
+6. A mutability/immutability hogyan jelenik meg a kollekciók esetében?
+7. Magyarázd el az == és az === operátorokat a Kotlin nyelvben! Mi ezeknek a megfelelője Java-ban?
+8. Milyen speciális tulajdonsága van a Set (halmaz) implementációnak?
+9. Hogyan dönti el a halmaz implementáció, hogy beenged-e egy elemet?
+10. Igaz-e az alábbi állítás: a Person nem használható Map kollekció kulcsaként csak akkor, ha felülírtam a hashCode és az equals metódusokat.
+11. Igaz-e az alábbi állítás: a val-ként listOf()-fal létrehozott, elemek nélküli példány nem sok mindenre jó, 
+mert sem az állapota nem mutálható (elem nem adható hozzá), sem pedig a változó referenciával nem lehet átmutatni egy másik objektumra a heap-en.
+12. Igaz-e az alábbi állítás: a var-ként, listOfNulls()-szal létrehozott példánynak utólag értékül lehet adni akár Int-eket, akár String-eket tartalmazó listát.

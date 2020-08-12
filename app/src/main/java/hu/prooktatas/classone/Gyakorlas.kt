@@ -66,6 +66,15 @@ fun main() {
     }
 
 
+//    val emptyList = listOf<Int>()
+//    emptyList.toIntArray()[0] = 1
+//    emptyList.add(20)
+//    emptyList = listOf(1, 2, 3)
+
+//    var test1 = arrayOfNulls<String>(5)
+//    test1 = arrayOf(1, 2, 3)
+//    test1 = arrayOf("egy", "2", "három")
+
 
 }
 
