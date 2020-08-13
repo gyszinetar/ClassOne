@@ -76,5 +76,5 @@ A map kulcsai azok az évszámok, amikor rendeztek (vagy rendezni fognak) olimpi
 
 * Szignatúrája: `fun gameInfo(year: Int): String`
 * Kérdés: "Mit tudunk az yyyy-es olimpiáról?" (yyyy egy tetszőleges évszámot jelez)
-* `String`-et ad vissza, amely egy értelmes magyar (vagy angol) mondat, pl.: "Az 1992-es olimpiát Barcelona-ban tartották, a rendező ország Spain, amely ezen a kontinensen található: EUROPA"
+* `String`-et ad vissza, amely egy értelmes magyar (vagy angol) mondat, pl.: "Az 1992-es olimpiát Barcelona-ban tartották, a rendező ország Spain, amely ezen a kontinensen található: EUROPE"
 * A metódus értelmes mondattal válaszoljon abban az esetben is, ha olyan évszámmal hívják meg, amikor nem rendeztek olimpiát!
