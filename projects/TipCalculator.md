@@ -54,7 +54,7 @@ Ha megfigyeljük az alkalmazás jelenlegi működését, azt látjuk, hogy a bev
 
 Nézőpont kérdése, hogy ez ideális (felhasználóbarát), vagy inkább zavaró.
 
-Ezzel kapcsolatos az imprevement, amit implementálni kellene:
+Ezzel kapcsolatos az a javítás, amit implementálni kellene:
 
 * további (és lehetőleg jobb) megoldás keresése, hogy csak akkor hivjuk meg azupdateUI() metodust, ha a user befejezte a beviteli mező szerkesztését. 
 * Átgondolni, mikor van az a pillanat, amikor tényleg befejezte! Tudhatjuk ezt egyáltalán? [HINT](https://stackoverflow.com/questions/3890033/how-to-remove-focus-from-single-edittext/37017712)
