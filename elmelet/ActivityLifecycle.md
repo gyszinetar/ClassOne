@@ -1,4 +1,4 @@
-# Activity életciklus, perzisztens és dianmikus állapot
+# Activity életciklus, perzisztens és dinamikus állapot
 
 Egy Activity több állapotban lehet az Android rendszerben.
 
