@@ -14,8 +14,8 @@ szűkébe kerül, akkor végleg megszünteti az Android a példányt.
 ## Lifecycle metódusok
 
 * onCreate
-* *onRestart*
-* onRestoreInstanceState
+* onRestart
+* *onRestoreInstanceState*
 * onStart
 * onResume
 * *onSaveInstanceState*
