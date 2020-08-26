@@ -7,6 +7,7 @@ AsyncTask osztály használatának elmélyítése.
 ## UI
 
 Egy `RecyclerView`-ban N darab cella, mindegyikben egy véleltlen szám (1..100 intervallumból), megjelenítve egy `TextView`-n. A cella jobboldalán egy 
+progress bar és egy `ImageView`. Minden cellában lévő számról kikalkulálja a program, hogy prímszám-e. Amíg a kakuláció tart, addig pörög a progress bar.
 
 ## Technológiák, új dolgok
 
