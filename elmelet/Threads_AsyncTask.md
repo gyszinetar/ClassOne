@@ -4,7 +4,7 @@
 
 Az OS process-eket indít, amiken belül ún. szálak végzik a végrehajtást.
 
-Kitüntett szál a **main thread**. Feladata:
+Kitüntetett szál a **main thread**. Feladata:
 
 * UI update
 * Felhasználó interakció kezelése (a UI elemein esemény figyelés és azok kezelése)

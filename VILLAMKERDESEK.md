@@ -114,3 +114,20 @@
 11. Igaz-e az alábbi állítás: a val-ként listOf()-fal létrehozott, elemek nélküli példány nem sok mindenre jó, 
 mert sem az állapota nem mutálható (elem nem adható hozzá), sem pedig a változó referenciával nem lehet átmutatni egy másik objektumra a heap-en.
 12. Igaz-e az alábbi állítás: a var-ként, listOfNulls()-szal létrehozott példánynak utólag értékül lehet adni akár Int-eket, akár String-eket tartalmazó listát.
+
+
+## 2020. augusztus 24.
+
+1. Mi a ConstraintLayout?
+2. Mi a bias?
+3. Mi történik egy a parent-jéhez layout_constraintStart_toStartOf és layout_constraintEnd_toEndOf constraint-ekkel hozzákötött widget-tel akkor, 
+ha a szélességét wrap_content-ről átállítjuk match_constraint-re (0dp-re)?
+4. Mik az enum-ok?
+5. Mi az activity stack és milyen adatszerkezetet valósít meg?
+6. Milyen állapotokban lehet egy activity a láthatóság szempontjából?
+7. Fejlesztőként hogyan értesülünk egy activity állapotváltozásairól?
+8. Mely életciklus metódusok jelölik ki az activity foreground állapotát?
+9. Mely életciklus metódusok jelölik ki az activity visible állapotát?
+10. Mely életciklus metódusok jelölik ki az activity teljes életciklusát?
+11. Mi a dynamic state és a persistence state?
+12. Mik a fragment-ek, hogyan kommunikálhatnak az activity-vel?
